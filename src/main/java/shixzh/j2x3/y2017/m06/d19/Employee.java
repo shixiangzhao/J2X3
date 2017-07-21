@@ -6,7 +6,9 @@ import java.util.Objects;
 
 public class Employee {
 
-	private String name;
+	public static final long RECORD_SIZE = 3;
+    public static final int NAME_SIZE = 10;
+    private String name;
 	private double salary;
 	private Date hireDate;
 
